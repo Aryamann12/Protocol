@@ -1,0 +1,3932 @@
+[
+  {
+    "name": "streamingapps",
+    "count": 3,
+    "sampleDocuments": [
+      {
+        "_id": "6919d1f0df9809cb0b39b037",
+        "sr_no": 1,
+        "name": "Netflix",
+        "type": "Movies & Series",
+        "createdAt": "2025-11-16T13:30:24.468Z",
+        "updatedAt": "2025-11-16T13:30:24.468Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1f0df9809cb0b39b039",
+        "sr_no": 2,
+        "name": "Prime Video",
+        "type": "Movies, Series & Amazon Originals",
+        "createdAt": "2025-11-16T13:30:24.488Z",
+        "updatedAt": "2025-11-16T13:30:24.488Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1f0df9809cb0b39b03b",
+        "sr_no": 3,
+        "name": "YouTube Premium",
+        "type": "Ad-free videos, movies & creators content",
+        "createdAt": "2025-11-16T13:30:24.506Z",
+        "updatedAt": "2025-11-16T13:30:24.506Z",
+        "__v": 0
+      }
+    ],
+    "fields": {
+      "sr_no": {
+        "type": "number",
+        "examples": [
+          1,
+          2,
+          3
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "name": {
+        "type": "string",
+        "examples": [
+          "Netflix",
+          "Prime Video",
+          "YouTube Premium"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "type": {
+        "type": "string",
+        "examples": [
+          "Movies & Series",
+          "Movies, Series & Amazon Originals",
+          "Ad-free videos, movies & creators content"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "createdAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:24.468Z",
+          "2025-11-16T13:30:24.488Z",
+          "2025-11-16T13:30:24.506Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "updatedAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:24.468Z",
+          "2025-11-16T13:30:24.488Z",
+          "2025-11-16T13:30:24.506Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      }
+    },
+    "domain": "Tech"
+  },
+  {
+    "name": "tlelevel3courses",
+    "count": 3,
+    "sampleDocuments": [
+      {
+        "_id": "6919d2ce1d302a071272fda7",
+        "sr_no": 1,
+        "module": "Binary Search",
+        "topics": [
+          {
+            "title": "Binary Search on Answer",
+            "status": "Not Started",
+            "notes": ""
+          },
+          {
+            "title": "Binary Search on Decimals",
+            "status": "Not Started",
+            "notes": ""
+          },
+          {
+            "title": "Problem Solving",
+            "status": "Not Started",
+            "notes": ""
+          },
+          {
+            "title": "Problem Solving [Bonus]",
+            "status": "Not Started",
+            "notes": ""
+          }
+        ],
+        "createdAt": "2025-11-16T13:34:06.077Z",
+        "updatedAt": "2025-11-16T13:34:06.077Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d2ce1d302a071272fda9",
+        "sr_no": 2,
+        "module": "Binary Search & Interactive Problems",
+        "topics": [
+          {
+            "title": "Transforming Eqns for Binary Search",
+            "status": "Not Started",
+            "notes": ""
+          },
+          {
+            "title": "Interactive Problems",
+            "status": "Not Started",
+            "notes": ""
+          },
+          {
+            "title": "Problem Solving",
+            "status": "Not Started",
+            "notes": ""
+          }
+        ],
+        "createdAt": "2025-11-16T13:34:06.097Z",
+        "updatedAt": "2025-11-16T13:34:06.097Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d2ce1d302a071272fdab",
+        "sr_no": 3,
+        "module": "Sliding Windows",
+        "topics": [
+          {
+            "title": "Sliding Windows Introduction",
+            "status": "Not Started",
+            "notes": ""
+          },
+          {
+            "title": "Sliding Window Problem Solving",
+            "status": "Not Started",
+            "notes": ""
+          }
+        ],
+        "createdAt": "2025-11-16T13:34:06.117Z",
+        "updatedAt": "2025-11-16T13:34:06.117Z",
+        "__v": 0
+      }
+    ],
+    "fields": {
+      "sr_no": {
+        "type": "number",
+        "examples": [
+          1,
+          2,
+          3
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "module": {
+        "type": "string",
+        "examples": [
+          "Binary Search",
+          "Binary Search & Interactive Problems",
+          "Sliding Windows"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "topics": {
+        "type": "Array",
+        "examples": [
+          {
+            "title": "Binary Search on Answer",
+            "status": "Not Started",
+            "notes": ""
+          },
+          {
+            "title": "Transforming Eqns for Binary Search",
+            "status": "Not Started",
+            "notes": ""
+          },
+          {
+            "title": "Sliding Windows Introduction",
+            "status": "Not Started",
+            "notes": ""
+          }
+        ],
+        "isArray": true,
+        "isObject": false,
+        "nestedFields": {
+          "title": {
+            "type": "string",
+            "examples": [
+              "Binary Search on Answer",
+              "Transforming Eqns for Binary Search",
+              "Sliding Windows Introduction"
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "status": {
+            "type": "string",
+            "examples": [
+              "Not Started"
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "notes": {
+            "type": "string",
+            "examples": [
+              ""
+            ],
+            "isArray": false,
+            "isObject": false
+          }
+        }
+      },
+      "createdAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:34:06.077Z",
+          "2025-11-16T13:34:06.097Z",
+          "2025-11-16T13:34:06.117Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "updatedAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:34:06.077Z",
+          "2025-11-16T13:34:06.097Z",
+          "2025-11-16T13:34:06.117Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      }
+    },
+    "domain": "Learning"
+  },
+  {
+    "name": "utensils",
+    "count": 3,
+    "sampleDocuments": [
+      {
+        "_id": "6919d1eedf9809cb0b39af98",
+        "sr_no": 1,
+        "category": "Cookware",
+        "item_name": "Non-stick Pan",
+        "quantity": 2,
+        "location": "Utensil Rack",
+        "notes": "For omelettes and light frying.",
+        "createdAt": "2025-11-16T13:30:22.910Z",
+        "updatedAt": "2025-11-16T13:30:22.910Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1eedf9809cb0b39af9a",
+        "sr_no": 2,
+        "category": "Cookware",
+        "item_name": "Pressure Cooker",
+        "quantity": 1,
+        "location": "Utensil Rack",
+        "notes": "For dals, rice and curries.",
+        "createdAt": "2025-11-16T13:30:22.929Z",
+        "updatedAt": "2025-11-16T13:30:22.929Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1eedf9809cb0b39af9c",
+        "sr_no": 3,
+        "category": "Other Utensils",
+        "item_name": "Spatulas / Ladles Set",
+        "quantity": 5,
+        "location": "Hanging Rack",
+        "notes": "Assorted spoons, spatulas, serving ladles.",
+        "createdAt": "2025-11-16T13:30:22.947Z",
+        "updatedAt": "2025-11-16T13:30:22.947Z",
+        "__v": 0
+      }
+    ],
+    "fields": {
+      "sr_no": {
+        "type": "number",
+        "examples": [
+          1,
+          2,
+          3
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "category": {
+        "type": "string",
+        "examples": [
+          "Cookware",
+          "Other Utensils"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "item_name": {
+        "type": "string",
+        "examples": [
+          "Non-stick Pan",
+          "Pressure Cooker",
+          "Spatulas / Ladles Set"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "quantity": {
+        "type": "number",
+        "examples": [
+          2,
+          1,
+          5
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "location": {
+        "type": "string",
+        "examples": [
+          "Utensil Rack",
+          "Hanging Rack"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "notes": {
+        "type": "string",
+        "examples": [
+          "For omelettes and light frying.",
+          "For dals, rice and curries.",
+          "Assorted spoons, spatulas, serving ladles."
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "createdAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:22.910Z",
+          "2025-11-16T13:30:22.929Z",
+          "2025-11-16T13:30:22.947Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "updatedAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:22.910Z",
+          "2025-11-16T13:30:22.929Z",
+          "2025-11-16T13:30:22.947Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      }
+    },
+    "domain": "Inventory"
+  },
+  {
+    "name": "codingninjascourses",
+    "count": 3,
+    "sampleDocuments": [
+      {
+        "_id": "6919d1efdf9809cb0b39afe5",
+        "sr_no": 1,
+        "course_type": "BasicCpp",
+        "title": "1_LL1_1",
+        "topics": [],
+        "createdAt": "2025-11-16T13:30:23.678Z",
+        "updatedAt": "2025-11-16T13:30:23.678Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1efdf9809cb0b39afe7",
+        "sr_no": 2,
+        "course_type": "BasicCpp",
+        "title": "1_LL1_2",
+        "topics": [],
+        "createdAt": "2025-11-16T13:30:23.696Z",
+        "updatedAt": "2025-11-16T13:30:23.696Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1efdf9809cb0b39afe9",
+        "sr_no": 3,
+        "course_type": "BasicCpp",
+        "title": "1_LL2_1",
+        "topics": [],
+        "createdAt": "2025-11-16T13:30:23.716Z",
+        "updatedAt": "2025-11-16T13:30:23.716Z",
+        "__v": 0
+      }
+    ],
+    "fields": {
+      "sr_no": {
+        "type": "number",
+        "examples": [
+          1,
+          2,
+          3
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "course_type": {
+        "type": "string",
+        "examples": [
+          "BasicCpp"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "title": {
+        "type": "string",
+        "examples": [
+          "1_LL1_1",
+          "1_LL1_2",
+          "1_LL2_1"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "topics": {
+        "type": "Array",
+        "examples": [
+          []
+        ],
+        "isArray": true,
+        "isObject": false
+      },
+      "createdAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:23.678Z",
+          "2025-11-16T13:30:23.696Z",
+          "2025-11-16T13:30:23.716Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "updatedAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:23.678Z",
+          "2025-11-16T13:30:23.696Z",
+          "2025-11-16T13:30:23.716Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      }
+    },
+    "domain": "Learning"
+  },
+  {
+    "name": "10xiitian_Resources",
+    "count": 2,
+    "sampleDocuments": [
+      {
+        "_id": "6919d1efdf9809cb0b39afb3",
+        "track_name": "Tech_Foundations",
+        "modules": [
+          {
+            "sr_no": 1,
+            "module": "Instruction Flows",
+            "total_hours": 8,
+            "completed_percentage": 31,
+            "status": "In Progress",
+            "notes": ""
+          },
+          {
+            "sr_no": 2,
+            "module": "C Programming Language",
+            "total_hours": 79,
+            "completed_percentage": 17,
+            "status": "In Progress",
+            "notes": ""
+          },
+          {
+            "sr_no": 3,
+            "module": "Python & OOP Concepts",
+            "total_hours": 57,
+            "completed_percentage": 64,
+            "status": "In Progress",
+            "notes": ""
+          },
+          {
+            "sr_no": 4,
+            "module": "Elementary Data Structures & Algorithms",
+            "total_hours": 29,
+            "completed_percentage": 6,
+            "status": "In Progress",
+            "notes": ""
+          },
+          {
+            "sr_no": 5,
+            "module": "Developer Foundations",
+            "total_hours": 24,
+            "completed_percentage": 9,
+            "status": "In Progress",
+            "notes": ""
+          }
+        ],
+        "createdAt": "2025-11-16T13:30:23.167Z",
+        "updatedAt": "2025-11-16T13:30:23.167Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1efdf9809cb0b39afb5",
+        "track_name": "Full_Stack_MERN",
+        "modules": [
+          {
+            "sr_no": 1,
+            "module": "Build Your Own Static Website",
+            "total_hours": 53,
+            "completed_percentage": 83,
+            "status": "In Progress",
+            "notes": ""
+          },
+          {
+            "sr_no": 2,
+            "module": "Build Your Own Responsive Website",
+            "total_hours": 56,
+            "completed_percentage": 52,
+            "status": "In Progress",
+            "notes": ""
+          },
+          {
+            "sr_no": 3,
+            "module": "Build Your Own Dynamic Web Application",
+            "total_hours": 54,
+            "completed_percentage": 19,
+            "status": "In Progress",
+            "notes": ""
+          },
+          {
+            "sr_no": 4,
+            "module": "JavaScript Essentials",
+            "total_hours": 44,
+            "completed_percentage": 12,
+            "status": "In Progress",
+            "notes": ""
+          },
+          {
+            "sr_no": 5,
+            "module": "Introduction to Databases",
+            "total_hours": 39,
+            "completed_percentage": 29,
+            "status": "In Progress",
+            "notes": ""
+          },
+          {
+            "sr_no": 6,
+            "module": "Responsive Web Design using Flexbox",
+            "total_hours": 42,
+            "completed_percentage": 0,
+            "status": "In Progress",
+            "notes": ""
+          },
+          {
+            "sr_no": 7,
+            "module": "Node.js",
+            "total_hours": 42,
+            "completed_percentage": 7,
+            "status": "In Progress",
+            "notes": ""
+          },
+          {
+            "sr_no": 8,
+            "module": "React.js – Getting Started",
+            "total_hours": 36,
+            "completed_percentage": 6,
+            "status": "In Progress",
+            "notes": ""
+          }
+        ],
+        "createdAt": "2025-11-16T13:30:23.188Z",
+        "updatedAt": "2025-11-16T13:30:23.188Z",
+        "__v": 0
+      }
+    ],
+    "fields": {
+      "track_name": {
+        "type": "string",
+        "examples": [
+          "Tech_Foundations",
+          "Full_Stack_MERN"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "modules": {
+        "type": "Array",
+        "examples": [
+          {
+            "sr_no": 1,
+            "module": "Instruction Flows",
+            "total_hours": 8,
+            "completed_percentage": 31,
+            "status": "In Progress",
+            "notes": ""
+          },
+          {
+            "sr_no": 1,
+            "module": "Build Your Own Static Website",
+            "total_hours": 53,
+            "completed_percentage": 83,
+            "status": "In Progress",
+            "notes": ""
+          }
+        ],
+        "isArray": true,
+        "isObject": false,
+        "nestedFields": {
+          "sr_no": {
+            "type": "number",
+            "examples": [
+              1
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "module": {
+            "type": "string",
+            "examples": [
+              "Instruction Flows",
+              "Build Your Own Static Website"
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "total_hours": {
+            "type": "number",
+            "examples": [
+              8,
+              53
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "completed_percentage": {
+            "type": "number",
+            "examples": [
+              31,
+              83
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "status": {
+            "type": "string",
+            "examples": [
+              "In Progress"
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "notes": {
+            "type": "string",
+            "examples": [
+              ""
+            ],
+            "isArray": false,
+            "isObject": false
+          }
+        }
+      },
+      "createdAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:23.167Z",
+          "2025-11-16T13:30:23.188Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "updatedAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:23.167Z",
+          "2025-11-16T13:30:23.188Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      }
+    },
+    "domain": "General"
+  },
+  {
+    "name": "socialplatforms",
+    "count": 3,
+    "sampleDocuments": [
+      {
+        "_id": "6919d1f0df9809cb0b39b029",
+        "sr_no": 1,
+        "name": "X",
+        "type": "social",
+        "purpose": "Explore and follow cool people",
+        "createdAt": "2025-11-16T13:30:24.333Z",
+        "updatedAt": "2025-11-16T13:30:24.333Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1f0df9809cb0b39b02b",
+        "sr_no": 2,
+        "name": "YouTube",
+        "type": "social",
+        "purpose": "Follow creators + maintain my own channel about daily activities",
+        "createdAt": "2025-11-16T13:30:24.353Z",
+        "updatedAt": "2025-11-16T13:30:24.353Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1f0df9809cb0b39b02d",
+        "sr_no": 3,
+        "name": "Instagram",
+        "type": "social",
+        "purpose": "Explore creators and stay updated socially",
+        "createdAt": "2025-11-16T13:30:24.372Z",
+        "updatedAt": "2025-11-16T13:30:24.372Z",
+        "__v": 0
+      }
+    ],
+    "fields": {
+      "sr_no": {
+        "type": "number",
+        "examples": [
+          1,
+          2,
+          3
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "name": {
+        "type": "string",
+        "examples": [
+          "X",
+          "YouTube",
+          "Instagram"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "type": {
+        "type": "string",
+        "examples": [
+          "social"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "purpose": {
+        "type": "string",
+        "examples": [
+          "Explore and follow cool people",
+          "Follow creators + maintain my own channel about daily activities",
+          "Explore creators and stay updated socially"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "createdAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:24.333Z",
+          "2025-11-16T13:30:24.353Z",
+          "2025-11-16T13:30:24.372Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "updatedAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:24.333Z",
+          "2025-11-16T13:30:24.353Z",
+          "2025-11-16T13:30:24.372Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      }
+    },
+    "domain": "General"
+  },
+  {
+    "name": "books",
+    "count": 3,
+    "sampleDocuments": [
+      {
+        "_id": "6919d1efdf9809cb0b39afb7",
+        "sr_no": 1,
+        "category": "AI Books",
+        "subcategory": "O'REILLY [HardCopies]",
+        "book_title": "NLP with Transformers",
+        "authors": [
+          "Lewis Tunstall",
+          "Leandro Von Werra",
+          "Thomas Wolf"
+        ],
+        "chapters": [
+          {
+            "title": "Chapter 1: Hello Transformers",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 2: Text Classification",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 3: Transformer Anatomy",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 4: Multilingual Named Entity Recognition",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 5: Text Generation",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 6: Summarization",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 7: Question Answering",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 8: Making Transformers Efficient in Production",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 9: Dealing with Few to No Labels",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 10: Training Transformers from Scratch",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 11: Future Directions",
+            "status": "Reading",
+            "notes": ""
+          }
+        ],
+        "createdAt": "2025-11-16T13:30:23.208Z",
+        "updatedAt": "2025-11-16T13:30:23.208Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1efdf9809cb0b39afb9",
+        "sr_no": 2,
+        "category": "AI Books",
+        "subcategory": "O'REILLY [HardCopies]",
+        "book_title": "Designing ML Systems",
+        "authors": [
+          "Chip Huyen"
+        ],
+        "chapters": [
+          {
+            "title": "Chapter 1: Overview of Machine Learning Systems",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 2: Introduction to Machine Learning Systems Design",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 3: Data Engineering Fundamentals",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 4: Training Data",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 5: Feature Engineering",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 6: Model Development and Offline Evaluation",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 7: Model Deployment and Prediction Service",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 8: Data Distribution Shifts and Monitoring",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 9: Continual Learning and Test in Production",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 10: Infrastructure and Tooling for MLOps",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 11: The Human Side of Machine Learning",
+            "status": "Reading",
+            "notes": ""
+          }
+        ],
+        "createdAt": "2025-11-16T13:30:23.230Z",
+        "updatedAt": "2025-11-16T13:30:23.230Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1efdf9809cb0b39afbb",
+        "sr_no": 3,
+        "category": "AI Books",
+        "subcategory": "O'REILLY [HardCopies]",
+        "book_title": "Hands-On Large Language Models",
+        "authors": [
+          "Jay Alammar & Maarten Grootendorst"
+        ],
+        "chapters": [
+          {
+            "title": "Chapter 1: An Introduction to Large Language Models",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 2: Tokens and Embeddings",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 3: Looking Inside Large Language Models",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 4: Text Classification",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 5: Text Clustering and Topic Modeling",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 6: Prompt Engineering",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 7: Advanced Text Generation Techniques and Tools",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 8: Semantic Search and Retrieval-Augmented Generation",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 9: Multimodal Large Language Models",
+            "status": "Reading",
+            "notes": ""
+          }
+        ],
+        "createdAt": "2025-11-16T13:30:23.249Z",
+        "updatedAt": "2025-11-16T13:30:23.249Z",
+        "__v": 0
+      }
+    ],
+    "fields": {
+      "sr_no": {
+        "type": "number",
+        "examples": [
+          1,
+          2,
+          3
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "category": {
+        "type": "string",
+        "examples": [
+          "AI Books"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "subcategory": {
+        "type": "string",
+        "examples": [
+          "O'REILLY [HardCopies]"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "book_title": {
+        "type": "string",
+        "examples": [
+          "NLP with Transformers",
+          "Designing ML Systems",
+          "Hands-On Large Language Models"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "authors": {
+        "type": "Array",
+        "examples": [
+          "Lewis Tunstall",
+          "Chip Huyen",
+          "Jay Alammar & Maarten Grootendorst"
+        ],
+        "isArray": true,
+        "isObject": false
+      },
+      "chapters": {
+        "type": "Array",
+        "examples": [
+          {
+            "title": "Chapter 1: Hello Transformers",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 1: Overview of Machine Learning Systems",
+            "status": "Reading",
+            "notes": ""
+          },
+          {
+            "title": "Chapter 1: An Introduction to Large Language Models",
+            "status": "Reading",
+            "notes": ""
+          }
+        ],
+        "isArray": true,
+        "isObject": false,
+        "nestedFields": {
+          "title": {
+            "type": "string",
+            "examples": [
+              "Chapter 1: Hello Transformers",
+              "Chapter 1: Overview of Machine Learning Systems",
+              "Chapter 1: An Introduction to Large Language Models"
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "status": {
+            "type": "string",
+            "examples": [
+              "Reading"
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "notes": {
+            "type": "string",
+            "examples": [
+              ""
+            ],
+            "isArray": false,
+            "isObject": false
+          }
+        }
+      },
+      "createdAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:23.208Z",
+          "2025-11-16T13:30:23.230Z",
+          "2025-11-16T13:30:23.249Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "updatedAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:23.208Z",
+          "2025-11-16T13:30:23.230Z",
+          "2025-11-16T13:30:23.249Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      }
+    },
+    "domain": "Learning"
+  },
+  {
+    "name": "fridgeitems",
+    "count": 3,
+    "sampleDocuments": [
+      {
+        "_id": "6919d1eedf9809cb0b39af9e",
+        "sr_no": 1,
+        "item_name": "Milk",
+        "category": "Dairy",
+        "quantity": "1 L",
+        "storage_shelf": "Top Shelf",
+        "expiry_date": "2025-11-20",
+        "status": "Fresh",
+        "priority_to_consume": "High",
+        "notes": "Use for tea/coffee and breakfast.",
+        "createdAt": "2025-11-16T13:30:22.967Z",
+        "updatedAt": "2025-11-16T13:30:22.967Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1eedf9809cb0b39afa0",
+        "sr_no": 2,
+        "item_name": "Eggs",
+        "category": "Protein",
+        "quantity": "6 pcs",
+        "storage_shelf": "Door Rack",
+        "expiry_date": "2025-11-25",
+        "status": "Fresh",
+        "priority_to_consume": "Medium",
+        "notes": "For omelettes and snacks.",
+        "createdAt": "2025-11-16T13:30:22.988Z",
+        "updatedAt": "2025-11-16T13:30:22.988Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1efdf9809cb0b39afa2",
+        "sr_no": 3,
+        "item_name": "Curd",
+        "category": "Dairy",
+        "quantity": "500 g",
+        "storage_shelf": "Middle Shelf",
+        "expiry_date": "2025-11-22",
+        "status": "Fresh",
+        "priority_to_consume": "High",
+        "notes": "For lunch/dinner and smoothies.",
+        "createdAt": "2025-11-16T13:30:23.007Z",
+        "updatedAt": "2025-11-16T13:30:23.007Z",
+        "__v": 0
+      }
+    ],
+    "fields": {
+      "sr_no": {
+        "type": "number",
+        "examples": [
+          1,
+          2,
+          3
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "item_name": {
+        "type": "string",
+        "examples": [
+          "Milk",
+          "Eggs",
+          "Curd"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "category": {
+        "type": "string",
+        "examples": [
+          "Dairy",
+          "Protein"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "quantity": {
+        "type": "string",
+        "examples": [
+          "1 L",
+          "6 pcs",
+          "500 g"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "storage_shelf": {
+        "type": "string",
+        "examples": [
+          "Top Shelf",
+          "Door Rack",
+          "Middle Shelf"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "expiry_date": {
+        "type": "string",
+        "examples": [
+          "2025-11-20",
+          "2025-11-25",
+          "2025-11-22"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "status": {
+        "type": "string",
+        "examples": [
+          "Fresh"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "priority_to_consume": {
+        "type": "string",
+        "examples": [
+          "High",
+          "Medium"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "notes": {
+        "type": "string",
+        "examples": [
+          "Use for tea/coffee and breakfast.",
+          "For omelettes and snacks.",
+          "For lunch/dinner and smoothies."
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "createdAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:22.967Z",
+          "2025-11-16T13:30:22.988Z",
+          "2025-11-16T13:30:23.007Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "updatedAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:22.967Z",
+          "2025-11-16T13:30:22.988Z",
+          "2025-11-16T13:30:23.007Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      }
+    },
+    "domain": "Inventory"
+  },
+  {
+    "name": "musicalinstruments",
+    "count": 2,
+    "sampleDocuments": [
+      {
+        "_id": "6919d1f0df9809cb0b39b043",
+        "sr_no": 1,
+        "category": "Guitar",
+        "details": {
+          "accessories": [
+            "Capo",
+            "Pluck"
+          ]
+        },
+        "createdAt": "2025-11-16T13:30:24.583Z",
+        "updatedAt": "2025-11-16T13:30:24.583Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d2ce1d302a071272fdd9",
+        "sr_no": 1,
+        "category": "Guitar",
+        "details": {
+          "accessories": [
+            "Capo",
+            "Pluck"
+          ]
+        },
+        "createdAt": "2025-11-16T13:34:06.586Z",
+        "updatedAt": "2025-11-16T13:34:06.586Z",
+        "__v": 0
+      }
+    ],
+    "fields": {
+      "sr_no": {
+        "type": "number",
+        "examples": [
+          1
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "category": {
+        "type": "string",
+        "examples": [
+          "Guitar"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "details": {
+        "type": "object",
+        "examples": [
+          {
+            "accessories": [
+              "Capo",
+              "Pluck"
+            ]
+          }
+        ],
+        "isArray": false,
+        "isObject": true,
+        "nestedFields": {
+          "accessories": {
+            "type": "Array | string",
+            "examples": [
+              "Capo"
+            ],
+            "isArray": true,
+            "isObject": false
+          }
+        }
+      },
+      "createdAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:24.583Z",
+          "2025-11-16T13:34:06.586Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "updatedAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:24.583Z",
+          "2025-11-16T13:34:06.586Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      }
+    },
+    "domain": "Inventory"
+  },
+  {
+    "name": "devices",
+    "count": 3,
+    "sampleDocuments": [
+      {
+        "_id": "6919d1efdf9809cb0b39afa8",
+        "sr_no": 1,
+        "category": "PersonalLaptop",
+        "device_name": "ROG M16 Gaming Laptop",
+        "description": "Super Powerful Laptop",
+        "bought_year": 2023,
+        "specs": {
+          "processor": "12th Gen Intel Core i9-12900H",
+          "ram": "16GB",
+          "graphics": "NVIDIA GeForce RTX 3060"
+        },
+        "compatible_with": [],
+        "createdAt": "2025-11-16T13:30:23.065Z",
+        "updatedAt": "2025-11-16T13:30:23.065Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1efdf9809cb0b39afaa",
+        "sr_no": 2,
+        "category": "OfficeLaptop",
+        "device_name": "Dell Laptop",
+        "specs": {
+          "processor": "Intel Core Ultra 5 135U",
+          "ram": "16GB",
+          "graphics": "Intel AI Boost Graphics"
+        },
+        "compatible_with": [],
+        "createdAt": "2025-11-16T13:30:23.085Z",
+        "updatedAt": "2025-11-16T13:30:23.085Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1efdf9809cb0b39afac",
+        "sr_no": 3,
+        "category": "Apple_iPad",
+        "device_name": "Apple iPad (2020)",
+        "bought_year": 2020,
+        "chipset": "A14 Bionic",
+        "specs": {
+          "note": "Specs below seem incorrect (copied from Office Laptop); correct information may be needed.",
+          "processor": "Intel Core Ultra 5 135U",
+          "ram": "16GB",
+          "graphics": "Intel AI Boost Graphics"
+        },
+        "compatible_with": [],
+        "createdAt": "2025-11-16T13:30:23.104Z",
+        "updatedAt": "2025-11-16T13:30:23.104Z",
+        "__v": 0
+      }
+    ],
+    "fields": {
+      "sr_no": {
+        "type": "number",
+        "examples": [
+          1,
+          2,
+          3
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "category": {
+        "type": "string",
+        "examples": [
+          "PersonalLaptop",
+          "OfficeLaptop",
+          "Apple_iPad"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "device_name": {
+        "type": "string",
+        "examples": [
+          "ROG M16 Gaming Laptop",
+          "Dell Laptop",
+          "Apple iPad (2020)"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "description": {
+        "type": "string",
+        "examples": [
+          "Super Powerful Laptop"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "bought_year": {
+        "type": "number",
+        "examples": [
+          2023,
+          2020
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "specs": {
+        "type": "object",
+        "examples": [
+          {
+            "processor": "12th Gen Intel Core i9-12900H",
+            "ram": "16GB",
+            "graphics": "NVIDIA GeForce RTX 3060"
+          },
+          {
+            "processor": "Intel Core Ultra 5 135U",
+            "ram": "16GB",
+            "graphics": "Intel AI Boost Graphics"
+          },
+          {
+            "note": "Specs below seem incorrect (copied from Office Laptop); correct information may be needed.",
+            "processor": "Intel Core Ultra 5 135U",
+            "ram": "16GB",
+            "graphics": "Intel AI Boost Graphics"
+          }
+        ],
+        "isArray": false,
+        "isObject": true,
+        "nestedFields": {
+          "processor": {
+            "type": "string",
+            "examples": [
+              "12th Gen Intel Core i9-12900H",
+              "Intel Core Ultra 5 135U"
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "ram": {
+            "type": "string",
+            "examples": [
+              "16GB"
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "graphics": {
+            "type": "string",
+            "examples": [
+              "NVIDIA GeForce RTX 3060",
+              "Intel AI Boost Graphics"
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "note": {
+            "type": "string",
+            "examples": [
+              "Specs below seem incorrect (copied from Office Laptop); correct information may be needed."
+            ],
+            "isArray": false,
+            "isObject": false
+          }
+        }
+      },
+      "compatible_with": {
+        "type": "Array",
+        "examples": [
+          []
+        ],
+        "isArray": true,
+        "isObject": false
+      },
+      "createdAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:23.065Z",
+          "2025-11-16T13:30:23.085Z",
+          "2025-11-16T13:30:23.104Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "updatedAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:23.065Z",
+          "2025-11-16T13:30:23.085Z",
+          "2025-11-16T13:30:23.104Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "chipset": {
+        "type": "string",
+        "examples": [
+          "A14 Bionic"
+        ],
+        "isArray": false,
+        "isObject": false
+      }
+    },
+    "domain": "Inventory"
+  },
+  {
+    "name": "kitchenequipments",
+    "count": 3,
+    "sampleDocuments": [
+      {
+        "_id": "6919d1eedf9809cb0b39af90",
+        "sr_no": 1,
+        "category": "Appliance",
+        "item_name": "Air Fryer",
+        "model_details": "1.2 L",
+        "location": "Kitchen Counter",
+        "purchase_date": null,
+        "warranty_expiry": null,
+        "usage_frequency": "Weekly",
+        "notes": "Use for quick air-fried snacks.",
+        "createdAt": "2025-11-16T13:30:22.817Z",
+        "updatedAt": "2025-11-16T13:30:22.817Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1eedf9809cb0b39af92",
+        "sr_no": 2,
+        "category": "Appliance",
+        "item_name": "Mixie Grinder - Juice Maker",
+        "model_details": "3 Jars, 500W",
+        "location": "Kitchen Shelf",
+        "purchase_date": null,
+        "warranty_expiry": null,
+        "usage_frequency": "Daily",
+        "notes": "For chutneys, masala grinding and juices.",
+        "createdAt": "2025-11-16T13:30:22.849Z",
+        "updatedAt": "2025-11-16T13:30:22.849Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1eedf9809cb0b39af94",
+        "sr_no": 3,
+        "category": "Appliance",
+        "item_name": "Electric Kettle",
+        "model_details": "1.5 L",
+        "location": "Kitchen Counter",
+        "purchase_date": null,
+        "warranty_expiry": null,
+        "usage_frequency": "Daily",
+        "notes": "Boil water for tea/coffee/instant food.",
+        "createdAt": "2025-11-16T13:30:22.869Z",
+        "updatedAt": "2025-11-16T13:30:22.869Z",
+        "__v": 0
+      }
+    ],
+    "fields": {
+      "sr_no": {
+        "type": "number",
+        "examples": [
+          1,
+          2,
+          3
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "category": {
+        "type": "string",
+        "examples": [
+          "Appliance"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "item_name": {
+        "type": "string",
+        "examples": [
+          "Air Fryer",
+          "Mixie Grinder - Juice Maker",
+          "Electric Kettle"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "model_details": {
+        "type": "string",
+        "examples": [
+          "1.2 L",
+          "3 Jars, 500W",
+          "1.5 L"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "location": {
+        "type": "string",
+        "examples": [
+          "Kitchen Counter",
+          "Kitchen Shelf"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "purchase_date": {
+        "type": "null",
+        "examples": [
+          null
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "warranty_expiry": {
+        "type": "null",
+        "examples": [
+          null
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "usage_frequency": {
+        "type": "string",
+        "examples": [
+          "Weekly",
+          "Daily"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "notes": {
+        "type": "string",
+        "examples": [
+          "Use for quick air-fried snacks.",
+          "For chutneys, masala grinding and juices.",
+          "Boil water for tea/coffee/instant food."
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "createdAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:22.817Z",
+          "2025-11-16T13:30:22.849Z",
+          "2025-11-16T13:30:22.869Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "updatedAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:22.817Z",
+          "2025-11-16T13:30:22.849Z",
+          "2025-11-16T13:30:22.869Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      }
+    },
+    "domain": "Inventory"
+  },
+  {
+    "name": "companies",
+    "count": 3,
+    "sampleDocuments": [
+      {
+        "_id": "6919d1f0df9809cb0b39b045",
+        "CompanyName": "Apple Inc.",
+        "IndustryOrSector": "Technology Hardware, Storage & Peripherals / Consumer Electronics",
+        "FoundedYear": 1976,
+        "Founders": [
+          "Steve Jobs",
+          "Steve Wozniak",
+          "Ronald Wayne"
+        ],
+        "HeadquartersLocation": "Cupertino, California, United States",
+        "CompanyHistorySummary": "Founded in 1976, Apple revolutionized personal computing with the Macintosh in 1984. After Steve Jobs' return in 1997, the company launched transformative products including the iMac (1998), iPod (2001), iPhone (2007), and iPad (2010). Apple transitioned from \"Apple Computer, Inc.\" to \"Apple Inc.\" in 2007, reflecting its evolution beyond computers. The company became the first to reach $1 trillion market cap in 2018, $2 trillion in 2020, and $3 trillion in 2023.",
+        "NotableProductsOrServices": [
+          "Mac computers and MacBook laptops",
+          "iPhone smartphones (launched 2007)",
+          "iPad tablets (launched 2010)",
+          "Apple Watch (launched 2015)",
+          "AirPods wireless audio",
+          "Apple TV+ streaming service",
+          "Services: iCloud, Apple Music, App Store, Apple Pay"
+        ],
+        "MarketCap": "$4.03 trillion (November 2025) - world's 2nd most valuable company",
+        "AnnualRevenue": "$416.16 billion (fiscal year 2025, up 6% year-over-year)",
+        "GlobalPresence": "Operations in 175+ countries and regions; over 500 retail stores in 23 countries; strong presence in Americas (42% of revenue), Europe, Greater China, and Asia-Pacific",
+        "StrategicFocusAreas": [
+          "AI Integration: Deploying Apple Intelligence across entire product line with privacy-first approach",
+          "Services Growth: Targeting $110 billion annual services revenue run rate",
+          "Manufacturing Diversification: Expanding production beyond China to India and Vietnam",
+          "Vision Pro: Establishing spatial computing platform",
+          "Privacy Leadership: Championing user privacy as core differentiator"
+        ],
+        "RecentMajorNews": [
+          "Q4 2025 revenue record of $102.5 billion (October 2025)",
+          "iPhone 17 launch in September 2025",
+          "India manufacturing expansion with key vendors",
+          "Services revenue reached all-time high",
+          "Delayed product launches (Apple TV, AirTag 2, HomePod mini 2 expected 2026 instead of November 2025)"
+        ],
+        "Competitors": "Samsung (22.7% global smartphone share), Google (Pixel, Android, cloud services), Microsoft (PCs, cloud), Xiaomi, Huawei, Amazon (services), Spotify",
+        "CompanyCultureTraits": [
+          "Top-notch excellence and high hiring standards",
+          "Innovation and creativity-driven",
+          "Design-centric approach integrating aesthetics and function",
+          "Moderate secrecy to protect intellectual property",
+          "Collaborative cross-functional teamwork",
+          "Diversity, inclusion, and accessibility commitment",
+          "Work-life balance challenges noted by some employees"
+        ],
+        "VisionOrMissionStatement": "Mission: \"To bring the best user experience to customers through innovative hardware, software, and services\" Vision: \"To make the best products on earth, and to leave the world better than we found it\" Focus on empowering people and enriching lives through intuitive, powerful, and beautiful technology",
+        "CEOName": "Timothy Donald (Tim) Cook",
+        "CEOBirthdate": "November 1, 1960",
+        "CEOBirthplace": "Mobile, Alabama, United States (grew up in Robertsdale, Alabama)",
+        "CEOEducation": [
+          "B.S. in Industrial Engineering, Auburn University (1982) - graduated second in his class",
+          "MBA, Duke University Fuqua School of Business (1988) - Fuqua Scholar (top 10%)"
+        ],
+        "PreviousRoles": [
+          "IBM (1982-1994): 12 years culminating as Director of North American Fulfillment",
+          "Intelligent Electronics (1994-1997): Chief Operating Officer of reseller division",
+          "Compaq Computer Corporation (1997): Vice President of Corporate Materials (6 months)",
+          "Apple (1998-2011): Senior VP of Worldwide Operations, then COO; served as Acting CEO during Steve Jobs' medical leaves (2004, 2009)"
+        ],
+        "YearBecameCEO": "August 24, 2011",
+        "LeadershipStyle": "Democratic, collaborative, calm and analytical; process-driven with emphasis on transparency and active listening; patient decision-making contrasts with Steve Jobs' assertive style; \"Model, Coach, Care\" framework; encourages open communication and team input",
+        "KeyPersonalityTraits": [
+          "Empathetic and emotionally intelligent",
+          "Collaborative and trusting delegator",
+          "Analytical and detail-oriented with operational excellence focus",
+          "Calm demeanor under pressure",
+          "Privacy advocate and human rights champion",
+          "Humble yet decisive"
+        ],
+        "CEOAchievements": [
+          "Grew Apple's market cap from $348 billion (2011) to $4+ trillion (2025)",
+          "Doubled company revenue and profit during tenure",
+          "Launched Apple Watch, AirPods, M1 chips, Services expansion",
+          "First openly gay Fortune 500 CEO",
+          "Led Apple to become most valuable company globally"
+        ],
+        "CEOPublicReputation": "Highly respected for operational excellence, diversity advocacy, privacy leadership; praised for sustainable growth vs. Jobs' visionary product launches; known for calm, measured public communication",
+        "CEONetWorth": "$2.6 billion (2025)",
+        "CEOAwards": "Time 100 Most Influential People; Advocate for LGBTQ+ rights; Industry leadership recognition",
+        "CEOQuotes": [
+          "\"Your idea plus my idea is better than the individual ideas on their own\"",
+          "\"Privacy is a fundamental human right\"",
+          "\"We believe that business, at its best, serves the public good\"",
+          "\"I super appreciate it\" (thanking shareholders)"
+        ],
+        "CEOPhilanthropyFocus": [
+          "Pledged to donate majority of wealth to philanthropy (after funding nephew's education)",
+          "Product (RED) initiative fighting AIDS (Apple contributed $130+ million over decade)",
+          "Civil rights and equality organizations",
+          "LGBTQ+ rights (Human Rights Campaign, Project One America)",
+          "Education initiatives",
+          "Environmental sustainability",
+          "Disaster relief (Hurricane Sandy, others)"
+        ],
+        "CEOControversies": "Generally controversy-free; occasional criticism over Apple's supply chain practices, tax strategies, and perceived incremental innovation under his leadership vs. Jobs era",
+        "CEOImpactOnCompanyStrategy": "Shifted from product-first to services growth; emphasized operational efficiency and supply chain excellence; prioritized privacy as competitive advantage; expanded into wearables and services; championed diversity and environmental initiatives",
+        "CompanyGrowthUnderCurrentCEO": [
+          "Market cap: $348B (2011) → $4.03T (2025) = 1,058% increase",
+          "Net income: $25.92B (2011) → $93.74B (2024) = 262% increase",
+          "Revenue: ~$108B (2011) → $416.16B (2025) = 285% increase",
+          "First $1T, $2T, $3T company milestones"
+        ],
+        "CEOEmployeeApprovalRating": [
+          "97% (2012) - tied with Steve Jobs",
+          "94% (2015)",
+          "93% (2017)",
+          "92% (2019)",
+          "91% (current) - well above 67-69% CEO average on Glassdoor"
+        ],
+        "CEOInterestsAndHobbies": "Fitness and cycling; privacy advocacy; technology innovation; mentorship; workplace diversity initiatives",
+        "CEOPersonalBrandKeywords": "Operational Excellence, Privacy Advocate, Empathetic Leader, LGBTQ+ Champion, Calm & Analytical, Sustainable Growth, Democratic Leadership",
+        "createdAt": "2025-11-16T13:30:24.603Z",
+        "updatedAt": "2025-11-16T13:30:24.603Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1f0df9809cb0b39b047",
+        "CompanyName": "Microsoft Corporation",
+        "IndustryOrSector": "Technology / Software, Cloud Computing & Artificial Intelligence",
+        "FoundedYear": 1975,
+        "Founders": [
+          "Bill Gates",
+          "Paul G. Allen"
+        ],
+        "HeadquartersLocation": "Redmond, Washington, United States",
+        "CompanyHistorySummary": "Founded in 1975 to develop BASIC interpreters for the Altair 8800, Microsoft rose to dominance with MS-DOS (1980s) and Windows operating systems (1990s). The company diversified beyond operating systems with Office productivity suite, Xbox gaming (2001), and cloud services. Under CEO Satya Nadella (2014-present), Microsoft transformed into a cloud-first, AI-driven company with Azure, LinkedIn acquisition (2016), GitHub, and major OpenAI partnership. By 2024, Microsoft reached $3+ trillion market cap.",
+        "NotableProductsOrServices": [
+          "Windows operating system",
+          "Microsoft 365 (Office suite)",
+          "Azure cloud platform",
+          "Microsoft Teams collaboration",
+          "Xbox gaming ecosystem",
+          "LinkedIn professional network",
+          "GitHub developer platform",
+          "Dynamics 365 business applications",
+          "Surface hardware devices",
+          "Copilot AI assistants"
+        ],
+        "MarketCap": "$3.74 trillion (November 2025) - world's 3rd most valuable company",
+        "AnnualRevenue": "$281.72 billion (fiscal year 2025); $293.81 billion TTM; 15% year-over-year growth",
+        "GlobalPresence": "Operations in 190+ countries; significant presence across Americas, Europe, Asia-Pacific; major cloud infrastructure investments globally; expanding data centers worldwide for AI capacity",
+        "StrategicFocusAreas": [
+          "Cloud & AI Leadership: Azure growth at 39% YoY; OpenAI partnership",
+          "Security & Quality: Secure Future Initiative and Quality Excellence Initiative",
+          "AI Innovation: Copilot deployment across product portfolio; 100M+ monthly active users",
+          "Skills Development: $4 billion Microsoft Elevate initiative for AI skilling",
+          "Sustainability: Carbon negative by 2030 commitment",
+          "Digital sovereignty and cybersecurity"
+        ],
+        "RecentMajorNews": [
+          "Q4 FY2025: $76.44 billion revenue (18% YoY growth) - July 2025",
+          "Azure surpassed $75 billion annual revenue",
+          "Capital expenditure: $125 billion planned for 2025 (AI infrastructure)",
+          "Copilot AI reached 100 million users",
+          "Gaming revenue up 10% despite 22% hardware decline",
+          "$30 billion quarterly capex announced"
+        ],
+        "Competitors": [
+          "Cloud: Amazon Web Services (AWS, 29-30% market share), Google Cloud (12-13% market share)",
+          "Software: Google (workspace tools), Apple (devices/OS)",
+          "AI: OpenAI (partner but also competitor), Google (Gemini), Amazon (Bedrock)",
+          "Gaming: Sony, Nintendo",
+          "Productivity: Slack, Zoom, Salesforce"
+        ],
+        "CompanyCultureTraits": [
+          "Growth Mindset: \"Learn-it-all\" vs. \"know-it-all\" culture transformation",
+          "Empathy as core value under Nadella",
+          "Customer obsession and innovation focus",
+          "One Microsoft: Breaking down silos, cross-functional collaboration",
+          "Diversity and inclusion commitment",
+          "Accountability, quality, and continuous learning emphasis",
+          "Psychological safety and open communication"
+        ],
+        "VisionOrMissionStatement": "Mission: \"To empower every person and every organization on the planet to achieve more\" Vision: \"To assist individuals and businesses throughout the globe in fulfilling their highest potential\" Core values: Innovation, dependable technology, equality and diversity, corporate social responsibility, sustainability",
+        "CEOName": "Satya Narayana Nadella",
+        "CEOBirthdate": "August 19, 1967",
+        "CEOBirthplace": "Hyderabad, Telangana, India",
+        "CEOEducation": [
+          "B.E. in Electrical Engineering, Manipal Institute of Technology, Karnataka, India (1988)",
+          "M.S. in Computer Science, University of Wisconsin–Milwaukee (1990)",
+          "MBA, University of Chicago Booth School of Business (1997)"
+        ],
+        "PreviousRoles": [
+          "Sun Microsystems: Brief early career stint",
+          "Microsoft (1992-2014): Joined as Windows NT team member; rose through ranks including VP Small Business Services, Corporate VP Microsoft Business Solutions, SVP Online Services Division, President Server & Tools Business, Executive VP Cloud and Enterprise (2011-2013)"
+        ],
+        "YearBecameCEO": "February 4, 2014 (CEO); June 16, 2021 (Chairman)",
+        "LeadershipStyle": "Empathetic, inclusive, and transformational; growth mindset advocate; collaborative consensus-builder; patient and reflective decision-maker; \"Model, Coach, Care\" philosophy; emphasizes clarity, energy, and creating success in all circumstances; strong emotional intelligence",
+        "KeyPersonalityTraits": [
+          "Deeply empathetic (shaped by personal experience with disabled son)",
+          "Curious and continuous learner",
+          "Humble yet decisive",
+          "Resilient under pressure",
+          "Customer-obsessed",
+          "Inclusive and diversity-focused",
+          "Grounded and accessible"
+        ],
+        "CEOAchievements": [
+          "Transformed Microsoft's market cap from ~$300B (2014) to $3.7T+ (2025)",
+          "Pivoted company to cloud-first, mobile-first strategy",
+          "Azure became second-largest cloud platform",
+          "Strategic acquisitions: LinkedIn ($26.2B), GitHub, Activision Blizzard ($69B)",
+          "OpenAI partnership and AI leadership",
+          "Cultural transformation from competitive to collaborative",
+          "Padma Bhushan award (2022, India's third-highest civilian honor)"
+        ],
+        "CEOPublicReputation": "Widely regarded as one of most transformational tech CEOs; praised for empathetic leadership and cultural change; respected for strategic vision in cloud and AI; positive media coverage; admired for balancing innovation with ethics",
+        "CEONetWorth": "$1.4 billion (October 2024-2025); estimated $320 million to $1.4 billion across sources",
+        "CEOAwards": "Padma Bhushan (2022); Time 100; numerous business leadership recognitions; honorary doctorates",
+        "CEOQuotes": [
+          "\"Our mission is to empower every person and every organization on the planet to achieve more\"",
+          "\"Empathy isn't a soft skill; it's actually the hardest skill we learn\"",
+          "\"Be passionate and bold. Always keep learning\"",
+          "\"Listen more, speak less and be decisive when the time comes\""
+        ],
+        "CEOPhilanthropyFocus": [
+          "$15 million donation to Seattle Children's Hospital (neurosciences and mental health) - honoring son Zain",
+          "Microsoft Philanthropies: Tech for Social Impact initiative",
+          "Education inequality and digital skills development",
+          "Healthcare access and innovation",
+          "COVID-19 relief efforts in India and globally",
+          "$300 crore (~$36M) donation to alma mater Hyderabad Public School with other tech CEOs",
+          "Focuses on accessibility, healthcare disparities, and technology for social good"
+        ],
+        "CEOControversies": "Minimal major controversies; faced criticism over layoffs (15,000+ cuts in 2024-2025) despite record profits; navigated antitrust scrutiny; generally maintains positive public image",
+        "CEOImpactOnCompanyStrategy": "Fundamentally transformed Microsoft from Windows-centric to cloud and AI leader; prioritized Azure and intelligent cloud services; championed growth mindset culture; emphasized partnerships over competition (e.g., Linux support); accelerated AI integration through OpenAI partnership; shifted from device obsession to platform empowerment",
+        "CompanyGrowthUnderCurrentCEO": [
+          "Market cap: ~$300B (2014) → $3.74T (2025) = 1,147% increase",
+          "Revenue: ~$87B (FY2014) → $281.72B (FY2025) = 224% increase",
+          "Stock price increase: ~1,908% since 2011",
+          "Azure growth from startup to $75B+ annual revenue",
+          "Became first/second most valuable company intermittently"
+        ],
+        "CEOEmployeeApprovalRating": [
+          "88% (2014, shortly after becoming CEO)",
+          "87% (2014, during layoffs)",
+          "Consistently above 85-90% range",
+          "Well above average CEO approval of 67-69%"
+        ],
+        "CEOInterestsAndHobbies": "Reading (particularly poetry); cricket fan; spending time with family; technology innovation; accessibility advocacy; continuous learning",
+        "CEOPersonalBrandKeywords": "Empathetic Leadership, Growth Mindset, Cloud Pioneer, Cultural Transformer, AI Visionary, Inclusive Leader, Accessible CEO",
+        "createdAt": "2025-11-16T13:30:24.625Z",
+        "updatedAt": "2025-11-16T13:30:24.625Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1f0df9809cb0b39b049",
+        "CompanyName": "Amazon.com, Inc.",
+        "IndustryOrSector": "Consumer Cyclical / Internet Retail, E-Commerce & Cloud Computing",
+        "FoundedYear": 1994,
+        "Founders": [
+          "Jeff Bezos"
+        ],
+        "HeadquartersLocation": "Seattle, Washington, United States",
+        "CompanyHistorySummary": "Founded by Jeff Bezos as an online bookstore in 1994, Amazon rapidly expanded into \"The Everything Store\" offering diverse product categories. The company pioneered e-commerce innovations including customer reviews, one-click purchasing, and Prime membership (2005). Amazon Web Services (AWS) launched in 2006, becoming world's largest cloud platform. Under Andy Jassy (CEO since 2021), the company focuses on AI integration, logistics optimization, and expanding AWS dominance while managing retail operations globally.",
+        "NotableProductsOrServices": [
+          "Amazon.com retail marketplace",
+          "Amazon Prime membership service",
+          "Amazon Web Services (AWS) cloud platform",
+          "Kindle e-readers and Fire tablets",
+          "Echo smart speakers with Alexa",
+          "Amazon Fresh and Whole Foods grocery",
+          "Prime Video streaming service",
+          "Amazon Advertising",
+          "Third-party marketplace platform",
+          "Logistics and fulfillment services"
+        ],
+        "MarketCap": "$2.4 trillion (November 2025); ~$330 billion increase in single session (October 2025)",
+        "AnnualRevenue": "$554.03 billion (2024); Q3 2025: $180.2 billion (12% YoY growth)",
+        "GlobalPresence": "Operations in 200+ countries and regions; fulfillment centers worldwide; AWS data centers across multiple continents; significant presence in North America, Europe, Asia-Pacific; expanding grocery and logistics infrastructure globally",
+        "StrategicFocusAreas": [
+          "AI Integration: AWS AI services, generative AI tools (Bedrock), AI-powered shopping",
+          "AWS Expansion: Accelerating cloud growth to 20.2% YoY (highest in 11 quarters)",
+          "Cost Efficiency: Streamlining operations, productivity improvements",
+          "Advertising Growth: 24% YoY increase to $17 billion",
+          "Logistics Optimization: Same-day/next-day delivery expansion",
+          "Capital Investment: $125 billion capex (2025), increasing in 2026"
+        ],
+        "RecentMajorNews": [
+          "Q3 2025: AWS revenue surged 20%, exceeding estimates",
+          "Stock soared 14% after-hours on strong earnings (October 2025)",
+          "CEO Andy Jassy noted AI demand driving \"fastest AWS growth since 2022\"",
+          "14,000 corporate job cuts announced (October 2025) as part of ~30,000 total reductions",
+          "Workforce grew to 1.58 million employees",
+          "Prime Video expanding original content"
+        ],
+        "Competitors": [
+          "E-Commerce: Walmart, Alibaba, eBay, Target, Shopify",
+          "Cloud: Microsoft Azure, Google Cloud Platform",
+          "Streaming: Netflix, Disney+, Apple TV+, HBO Max",
+          "Grocery: Walmart, Kroger, traditional retailers",
+          "Smart Home: Google, Apple, Samsung",
+          "Advertising: Google, Meta, The Trade Desk"
+        ],
+        "CompanyCultureTraits": [
+          "Customer obsession as core principle",
+          "Bias for action and ownership mentality",
+          "Innovation and long-term thinking emphasis",
+          "Frugality culture despite massive scale",
+          "High performance standards",
+          "Data-driven decision making (\"Day 1\" mentality)",
+          "Work intensity and demanding pace noted by employees",
+          "Leadership Principles guide all decisions"
+        ],
+        "VisionOrMissionStatement": "\"To be Earth's most customer-centric company, where customers can find and discover anything they might want to buy online\" - Focus on customer satisfaction, selection, convenience, and competitive prices",
+        "CEOName": "Andrew R. (Andy) Jassy",
+        "CEOBirthdate": "January 13, 1968 (approximate)",
+        "CEOBirthplace": "Scarsdale, New York, United States",
+        "CEOEducation": [
+          "B.A. from Harvard University (1990)",
+          "MBA from Harvard Business School (1997)"
+        ],
+        "PreviousRoles": [
+          "Joined Amazon in 1997 as assistant to Jeff Bezos",
+          "Marketing Manager roles",
+          "Founder and CEO of Amazon Web Services (AWS) from inception in 2006",
+          "Successfully grew AWS into world's leading cloud platform before becoming Amazon CEO"
+        ],
+        "YearBecameCEO": "July 5, 2021 (succeeded Jeff Bezos)",
+        "LeadershipStyle": "Operationally focused with deep technical knowledge; customer-centric decision maker; data-driven and analytical; emphasis on efficiency and cost management; collaborative but demanding; reserved public demeanor with occasional enthusiasm during analyst calls",
+        "KeyPersonalityTraits": [
+          "Technically proficient, operationally excellent, customer-focused, analytical, strategic thinker, calm under pressure, performance-driven"
+        ],
+        "CEOAchievements": [
+          "Built AWS from zero to $75+ billion annual revenue business",
+          "Leading Amazon through major AI transformation",
+          "Maintained AWS market leadership against fierce competition",
+          "Successfully navigated CEO transition from founder",
+          "Drove operational efficiencies while managing massive scale"
+        ],
+        "CEOPublicReputation": "Respected for AWS expertise and operational capabilities; lower public profile than predecessor Bezos; seen as steady, competent leader; praised for technical acumen",
+        "CEONetWorth": "Estimated $400-600 million (primarily from Amazon stock and compensation packages)",
+        "CEOAwards": "Technology industry leadership recognition; AWS innovation awards",
+        "CEOQuotes": [
+          "\"AWS is expanding at a rate we haven't observed since 2022\"",
+          "\"I observe the momentum we currently possess, and I believe we can continue to expand and operate effectively for some time\"",
+          "On AI: \"Our AI progress continues to improve our customer experiences\""
+        ],
+        "CEOPhilanthropyFocus": "Relatively private regarding personal philanthropy; Amazon corporate giving includes disaster relief, education initiatives, homelessness programs in Seattle, and environmental sustainability efforts",
+        "CEOControversies": "Job cuts of 30,000+ workers criticized amid record profits; warehouse working conditions scrutiny; antitrust concerns inherited from Bezos era; cultural descriptions of demanding work environment",
+        "CEOImpactOnCompanyStrategy": "Emphasized operational efficiency and cost control; accelerated AI integration across all business units; focused on AWS growth and profitability; implemented workforce optimization; maintained customer-centric approach while improving margins",
+        "CompanyGrowthUnderCurrentCEO": [
+          "Revenue growth maintained strong trajectory",
+          "AWS revenue growth accelerated to 20%+ (Q3 2025)",
+          "Stock performance: Relatively flat 2024, strong Q3 2025 surge",
+          "Expanded AI capabilities significantly",
+          "Improved operational efficiency metrics"
+        ],
+        "CEOEmployeeApprovalRating": "Estimated 75-85% range (lower than Bezos in early years but above average; specific Glassdoor ratings vary)",
+        "CEOInterestsAndHobbies": "Sports fan (particularly Buffalo Bills); technology innovation; music; family time; maintains relatively private personal life",
+        "CEOPersonalBrandKeywords": "AWS Pioneer, Operational Excellence, Technical Expertise, Customer Obsession, AI Visionary, Steady Leadership, Cloud Computing Expert",
+        "createdAt": "2025-11-16T13:30:24.648Z",
+        "updatedAt": "2025-11-16T13:30:24.648Z",
+        "__v": 0
+      }
+    ],
+    "fields": {
+      "CompanyName": {
+        "type": "string",
+        "examples": [
+          "Apple Inc.",
+          "Microsoft Corporation",
+          "Amazon.com, Inc."
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "IndustryOrSector": {
+        "type": "string",
+        "examples": [
+          "Technology Hardware, Storage & Peripherals / Consumer Electronics",
+          "Technology / Software, Cloud Computing & Artificial Intelligence",
+          "Consumer Cyclical / Internet Retail, E-Commerce & Cloud Computing"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "FoundedYear": {
+        "type": "number",
+        "examples": [
+          1976,
+          1975,
+          1994
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "Founders": {
+        "type": "Array",
+        "examples": [
+          "Steve Jobs",
+          "Bill Gates",
+          "Jeff Bezos"
+        ],
+        "isArray": true,
+        "isObject": false
+      },
+      "HeadquartersLocation": {
+        "type": "string",
+        "examples": [
+          "Cupertino, California, United States",
+          "Redmond, Washington, United States",
+          "Seattle, Washington, United States"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "CompanyHistorySummary": {
+        "type": "string",
+        "examples": [
+          "Founded in 1976, Apple revolutionized personal computing with the Macintosh in 1984. After Steve Jobs' return in 1997, the company launched transformative products including the iMac (1998), iPod (2001), iPhone (2007), and iPad (2010). Apple transitioned from \"Apple Computer, Inc.\" to \"Apple Inc.\" in 2007, reflecting its evolution beyond computers. The company became the first to reach $1 trillion market cap in 2018, $2 trillion in 2020, and $3 trillion in 2023.",
+          "Founded in 1975 to develop BASIC interpreters for the Altair 8800, Microsoft rose to dominance with MS-DOS (1980s) and Windows operating systems (1990s). The company diversified beyond operating systems with Office productivity suite, Xbox gaming (2001), and cloud services. Under CEO Satya Nadella (2014-present), Microsoft transformed into a cloud-first, AI-driven company with Azure, LinkedIn acquisition (2016), GitHub, and major OpenAI partnership. By 2024, Microsoft reached $3+ trillion market cap.",
+          "Founded by Jeff Bezos as an online bookstore in 1994, Amazon rapidly expanded into \"The Everything Store\" offering diverse product categories. The company pioneered e-commerce innovations including customer reviews, one-click purchasing, and Prime membership (2005). Amazon Web Services (AWS) launched in 2006, becoming world's largest cloud platform. Under Andy Jassy (CEO since 2021), the company focuses on AI integration, logistics optimization, and expanding AWS dominance while managing retail operations globally."
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "NotableProductsOrServices": {
+        "type": "Array",
+        "examples": [
+          "Mac computers and MacBook laptops",
+          "Windows operating system",
+          "Amazon.com retail marketplace"
+        ],
+        "isArray": true,
+        "isObject": false
+      },
+      "MarketCap": {
+        "type": "string",
+        "examples": [
+          "$4.03 trillion (November 2025) - world's 2nd most valuable company",
+          "$3.74 trillion (November 2025) - world's 3rd most valuable company",
+          "$2.4 trillion (November 2025); ~$330 billion increase in single session (October 2025)"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "AnnualRevenue": {
+        "type": "string",
+        "examples": [
+          "$416.16 billion (fiscal year 2025, up 6% year-over-year)",
+          "$281.72 billion (fiscal year 2025); $293.81 billion TTM; 15% year-over-year growth",
+          "$554.03 billion (2024); Q3 2025: $180.2 billion (12% YoY growth)"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "GlobalPresence": {
+        "type": "string",
+        "examples": [
+          "Operations in 175+ countries and regions; over 500 retail stores in 23 countries; strong presence in Americas (42% of revenue), Europe, Greater China, and Asia-Pacific",
+          "Operations in 190+ countries; significant presence across Americas, Europe, Asia-Pacific; major cloud infrastructure investments globally; expanding data centers worldwide for AI capacity",
+          "Operations in 200+ countries and regions; fulfillment centers worldwide; AWS data centers across multiple continents; significant presence in North America, Europe, Asia-Pacific; expanding grocery and logistics infrastructure globally"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "StrategicFocusAreas": {
+        "type": "Array",
+        "examples": [
+          "AI Integration: Deploying Apple Intelligence across entire product line with privacy-first approach",
+          "Cloud & AI Leadership: Azure growth at 39% YoY; OpenAI partnership",
+          "AI Integration: AWS AI services, generative AI tools (Bedrock), AI-powered shopping"
+        ],
+        "isArray": true,
+        "isObject": false
+      },
+      "RecentMajorNews": {
+        "type": "Array",
+        "examples": [
+          "Q4 2025 revenue record of $102.5 billion (October 2025)",
+          "Q4 FY2025: $76.44 billion revenue (18% YoY growth) - July 2025",
+          "Q3 2025: AWS revenue surged 20%, exceeding estimates"
+        ],
+        "isArray": true,
+        "isObject": false
+      },
+      "Competitors": {
+        "type": "string | Array | Array",
+        "examples": [
+          "Samsung (22.7% global smartphone share), Google (Pixel, Android, cloud services), Microsoft (PCs, cloud), Xiaomi, Huawei, Amazon (services), Spotify",
+          "Cloud: Amazon Web Services (AWS, 29-30% market share), Google Cloud (12-13% market share)",
+          "E-Commerce: Walmart, Alibaba, eBay, Target, Shopify"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "CompanyCultureTraits": {
+        "type": "Array",
+        "examples": [
+          "Top-notch excellence and high hiring standards",
+          "Growth Mindset: \"Learn-it-all\" vs. \"know-it-all\" culture transformation",
+          "Customer obsession as core principle"
+        ],
+        "isArray": true,
+        "isObject": false
+      },
+      "VisionOrMissionStatement": {
+        "type": "string",
+        "examples": [
+          "Mission: \"To bring the best user experience to customers through innovative hardware, software, and services\" Vision: \"To make the best products on earth, and to leave the world better than we found it\" Focus on empowering people and enriching lives through intuitive, powerful, and beautiful technology",
+          "Mission: \"To empower every person and every organization on the planet to achieve more\" Vision: \"To assist individuals and businesses throughout the globe in fulfilling their highest potential\" Core values: Innovation, dependable technology, equality and diversity, corporate social responsibility, sustainability",
+          "\"To be Earth's most customer-centric company, where customers can find and discover anything they might want to buy online\" - Focus on customer satisfaction, selection, convenience, and competitive prices"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "CEOName": {
+        "type": "string",
+        "examples": [
+          "Timothy Donald (Tim) Cook",
+          "Satya Narayana Nadella",
+          "Andrew R. (Andy) Jassy"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "CEOBirthdate": {
+        "type": "string",
+        "examples": [
+          "November 1, 1960",
+          "August 19, 1967",
+          "January 13, 1968 (approximate)"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "CEOBirthplace": {
+        "type": "string",
+        "examples": [
+          "Mobile, Alabama, United States (grew up in Robertsdale, Alabama)",
+          "Hyderabad, Telangana, India",
+          "Scarsdale, New York, United States"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "CEOEducation": {
+        "type": "Array",
+        "examples": [
+          "B.S. in Industrial Engineering, Auburn University (1982) - graduated second in his class",
+          "B.E. in Electrical Engineering, Manipal Institute of Technology, Karnataka, India (1988)",
+          "B.A. from Harvard University (1990)"
+        ],
+        "isArray": true,
+        "isObject": false
+      },
+      "PreviousRoles": {
+        "type": "Array",
+        "examples": [
+          "IBM (1982-1994): 12 years culminating as Director of North American Fulfillment",
+          "Sun Microsystems: Brief early career stint",
+          "Joined Amazon in 1997 as assistant to Jeff Bezos"
+        ],
+        "isArray": true,
+        "isObject": false
+      },
+      "YearBecameCEO": {
+        "type": "string",
+        "examples": [
+          "August 24, 2011",
+          "February 4, 2014 (CEO); June 16, 2021 (Chairman)",
+          "July 5, 2021 (succeeded Jeff Bezos)"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "LeadershipStyle": {
+        "type": "string",
+        "examples": [
+          "Democratic, collaborative, calm and analytical; process-driven with emphasis on transparency and active listening; patient decision-making contrasts with Steve Jobs' assertive style; \"Model, Coach, Care\" framework; encourages open communication and team input",
+          "Empathetic, inclusive, and transformational; growth mindset advocate; collaborative consensus-builder; patient and reflective decision-maker; \"Model, Coach, Care\" philosophy; emphasizes clarity, energy, and creating success in all circumstances; strong emotional intelligence",
+          "Operationally focused with deep technical knowledge; customer-centric decision maker; data-driven and analytical; emphasis on efficiency and cost management; collaborative but demanding; reserved public demeanor with occasional enthusiasm during analyst calls"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "KeyPersonalityTraits": {
+        "type": "Array",
+        "examples": [
+          "Empathetic and emotionally intelligent",
+          "Deeply empathetic (shaped by personal experience with disabled son)",
+          "Technically proficient, operationally excellent, customer-focused, analytical, strategic thinker, calm under pressure, performance-driven"
+        ],
+        "isArray": true,
+        "isObject": false
+      },
+      "CEOAchievements": {
+        "type": "Array",
+        "examples": [
+          "Grew Apple's market cap from $348 billion (2011) to $4+ trillion (2025)",
+          "Transformed Microsoft's market cap from ~$300B (2014) to $3.7T+ (2025)",
+          "Built AWS from zero to $75+ billion annual revenue business"
+        ],
+        "isArray": true,
+        "isObject": false
+      },
+      "CEOPublicReputation": {
+        "type": "string",
+        "examples": [
+          "Highly respected for operational excellence, diversity advocacy, privacy leadership; praised for sustainable growth vs. Jobs' visionary product launches; known for calm, measured public communication",
+          "Widely regarded as one of most transformational tech CEOs; praised for empathetic leadership and cultural change; respected for strategic vision in cloud and AI; positive media coverage; admired for balancing innovation with ethics",
+          "Respected for AWS expertise and operational capabilities; lower public profile than predecessor Bezos; seen as steady, competent leader; praised for technical acumen"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "CEONetWorth": {
+        "type": "string",
+        "examples": [
+          "$2.6 billion (2025)",
+          "$1.4 billion (October 2024-2025); estimated $320 million to $1.4 billion across sources",
+          "Estimated $400-600 million (primarily from Amazon stock and compensation packages)"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "CEOAwards": {
+        "type": "string",
+        "examples": [
+          "Time 100 Most Influential People; Advocate for LGBTQ+ rights; Industry leadership recognition",
+          "Padma Bhushan (2022); Time 100; numerous business leadership recognitions; honorary doctorates",
+          "Technology industry leadership recognition; AWS innovation awards"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "CEOQuotes": {
+        "type": "Array",
+        "examples": [
+          "\"Your idea plus my idea is better than the individual ideas on their own\"",
+          "\"Our mission is to empower every person and every organization on the planet to achieve more\"",
+          "\"AWS is expanding at a rate we haven't observed since 2022\""
+        ],
+        "isArray": true,
+        "isObject": false
+      },
+      "CEOPhilanthropyFocus": {
+        "type": "Array | string",
+        "examples": [
+          "Pledged to donate majority of wealth to philanthropy (after funding nephew's education)",
+          "$15 million donation to Seattle Children's Hospital (neurosciences and mental health) - honoring son Zain",
+          "Relatively private regarding personal philanthropy; Amazon corporate giving includes disaster relief, education initiatives, homelessness programs in Seattle, and environmental sustainability efforts"
+        ],
+        "isArray": true,
+        "isObject": false
+      },
+      "CEOControversies": {
+        "type": "string",
+        "examples": [
+          "Generally controversy-free; occasional criticism over Apple's supply chain practices, tax strategies, and perceived incremental innovation under his leadership vs. Jobs era",
+          "Minimal major controversies; faced criticism over layoffs (15,000+ cuts in 2024-2025) despite record profits; navigated antitrust scrutiny; generally maintains positive public image",
+          "Job cuts of 30,000+ workers criticized amid record profits; warehouse working conditions scrutiny; antitrust concerns inherited from Bezos era; cultural descriptions of demanding work environment"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "CEOImpactOnCompanyStrategy": {
+        "type": "string",
+        "examples": [
+          "Shifted from product-first to services growth; emphasized operational efficiency and supply chain excellence; prioritized privacy as competitive advantage; expanded into wearables and services; championed diversity and environmental initiatives",
+          "Fundamentally transformed Microsoft from Windows-centric to cloud and AI leader; prioritized Azure and intelligent cloud services; championed growth mindset culture; emphasized partnerships over competition (e.g., Linux support); accelerated AI integration through OpenAI partnership; shifted from device obsession to platform empowerment",
+          "Emphasized operational efficiency and cost control; accelerated AI integration across all business units; focused on AWS growth and profitability; implemented workforce optimization; maintained customer-centric approach while improving margins"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "CompanyGrowthUnderCurrentCEO": {
+        "type": "Array",
+        "examples": [
+          "Market cap: $348B (2011) → $4.03T (2025) = 1,058% increase",
+          "Market cap: ~$300B (2014) → $3.74T (2025) = 1,147% increase",
+          "Revenue growth maintained strong trajectory"
+        ],
+        "isArray": true,
+        "isObject": false
+      },
+      "CEOEmployeeApprovalRating": {
+        "type": "Array | string",
+        "examples": [
+          "97% (2012) - tied with Steve Jobs",
+          "88% (2014, shortly after becoming CEO)",
+          "Estimated 75-85% range (lower than Bezos in early years but above average; specific Glassdoor ratings vary)"
+        ],
+        "isArray": true,
+        "isObject": false
+      },
+      "CEOInterestsAndHobbies": {
+        "type": "string",
+        "examples": [
+          "Fitness and cycling; privacy advocacy; technology innovation; mentorship; workplace diversity initiatives",
+          "Reading (particularly poetry); cricket fan; spending time with family; technology innovation; accessibility advocacy; continuous learning",
+          "Sports fan (particularly Buffalo Bills); technology innovation; music; family time; maintains relatively private personal life"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "CEOPersonalBrandKeywords": {
+        "type": "string",
+        "examples": [
+          "Operational Excellence, Privacy Advocate, Empathetic Leader, LGBTQ+ Champion, Calm & Analytical, Sustainable Growth, Democratic Leadership",
+          "Empathetic Leadership, Growth Mindset, Cloud Pioneer, Cultural Transformer, AI Visionary, Inclusive Leader, Accessible CEO",
+          "AWS Pioneer, Operational Excellence, Technical Expertise, Customer Obsession, AI Visionary, Steady Leadership, Cloud Computing Expert"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "createdAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:24.603Z",
+          "2025-11-16T13:30:24.625Z",
+          "2025-11-16T13:30:24.648Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "updatedAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:24.603Z",
+          "2025-11-16T13:30:24.625Z",
+          "2025-11-16T13:30:24.648Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      }
+    },
+    "domain": "General"
+  },
+  {
+    "name": "gym-progress",
+    "count": 3,
+    "sampleDocuments": [
+      {
+        "_id": "6919d1eedf9809cb0b39af80",
+        "date": "April 12th",
+        "location": null,
+        "push": [
+          {
+            "exercise": "Inclined_Flat",
+            "progress": "x22.5kg",
+            "sets": 3
+          },
+          {
+            "exercise": "PeckDeck",
+            "progress": "x50kg",
+            "sets": 3
+          },
+          {
+            "exercise": "ShoulderPress",
+            "progress": "x15kg",
+            "sets": 3
+          },
+          {
+            "exercise": "LateralRaise",
+            "progress": "x7.5kg",
+            "sets": 3
+          },
+          {
+            "exercise": "TricepExtension",
+            "progress": "x50kg",
+            "sets": 3
+          },
+          {
+            "exercise": "PushUps",
+            "progress": "~20",
+            "sets": 3
+          }
+        ],
+        "pull": [
+          {
+            "exercise": "TBar",
+            "progress": "x35kg",
+            "sets": 3
+          },
+          {
+            "exercise": "PullUps",
+            "progress": "~15",
+            "sets": 3
+          },
+          {
+            "exercise": "LatPull_ReversePull",
+            "progress": "x45kg",
+            "sets": 3
+          },
+          {
+            "exercise": "SeatedRow",
+            "progress": "x45kg",
+            "sets": 3
+          },
+          {
+            "exercise": "Shrugs",
+            "progress": "x25kg",
+            "sets": 3
+          },
+          {
+            "exercise": "BicepCurl_Hammers",
+            "progress": "x12.5kg",
+            "sets": 3
+          }
+        ],
+        "legs": [
+          {
+            "exercise": "GoblinSquats",
+            "progress": "x30kg",
+            "sets": 3
+          },
+          {
+            "exercise": "LegPress",
+            "progress": "x100kg",
+            "sets": 3
+          },
+          {
+            "exercise": "LegCurl",
+            "progress": "x40kg",
+            "sets": 3
+          },
+          {
+            "exercise": "Extensions",
+            "progress": "x50kg",
+            "sets": 3
+          },
+          {
+            "exercise": "Abduction_Adduction",
+            "progress": "x35kg",
+            "sets": 3
+          },
+          {
+            "exercise": "LegRaises",
+            "progress": "~60",
+            "sets": 3
+          }
+        ],
+        "createdAt": "2025-11-16T13:30:22.354Z",
+        "updatedAt": "2025-11-16T13:30:22.354Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1eedf9809cb0b39af86",
+        "date": "May 21st",
+        "location": null,
+        "push": [
+          {
+            "exercise": "Inclined_Flat",
+            "progress": "x25kg",
+            "sets": 3
+          },
+          {
+            "exercise": "PeckDeck",
+            "progress": "x50kg",
+            "sets": 3
+          },
+          {
+            "exercise": "ShoulderPress",
+            "progress": "x15kg",
+            "sets": 3
+          },
+          {
+            "exercise": "LateralRaise",
+            "progress": "x7.5kg",
+            "sets": 3
+          },
+          {
+            "exercise": "TricepExtension",
+            "progress": "x45kg",
+            "sets": 3
+          },
+          {
+            "exercise": "PushUps",
+            "progress": "~60",
+            "sets": 3
+          }
+        ],
+        "pull": [
+          {
+            "exercise": "TBar",
+            "progress": "x45kg",
+            "sets": 3
+          },
+          {
+            "exercise": "PullUps",
+            "progress": "~27",
+            "sets": 3
+          },
+          {
+            "exercise": "LatPull_ReversePull",
+            "progress": "x45kg",
+            "sets": 3
+          },
+          {
+            "exercise": "SeatedRow",
+            "progress": "x45kg",
+            "sets": 3
+          },
+          {
+            "exercise": "Shrugs",
+            "progress": "x25kg",
+            "sets": 3
+          },
+          {
+            "exercise": "BicepCurl_Hammers",
+            "progress": "x15kg x35kg",
+            "sets": 3
+          }
+        ],
+        "legs": [
+          {
+            "exercise": "BarbellSquats",
+            "progress": "x20kg",
+            "sets": 3
+          },
+          {
+            "exercise": "LegPress",
+            "progress": "x120kg",
+            "sets": 3
+          },
+          {
+            "exercise": "LegCurl",
+            "progress": "x50kg",
+            "sets": 3
+          },
+          {
+            "exercise": "Extensions",
+            "progress": "x50kg",
+            "sets": 3
+          },
+          {
+            "exercise": "Abduction_Adduction",
+            "progress": "x35kg x50kg",
+            "sets": 3
+          },
+          {
+            "exercise": "VSitUps",
+            "progress": "~60",
+            "sets": 3
+          }
+        ],
+        "createdAt": "2025-11-16T13:30:22.707Z",
+        "updatedAt": "2025-11-16T13:30:22.707Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1eedf9809cb0b39af88",
+        "date": "June 26th",
+        "location": "On Leaving Delhi",
+        "push": [
+          {
+            "exercise": "Inclined_Flat",
+            "progress": "x27.5kg",
+            "sets": 3
+          },
+          {
+            "exercise": "PeckDeck",
+            "progress": "x60kg",
+            "sets": 3
+          },
+          {
+            "exercise": "ShoulderPress",
+            "progress": "x15kg",
+            "sets": 3
+          },
+          {
+            "exercise": "LateralRaise",
+            "progress": "x7.5kg",
+            "sets": 3
+          },
+          {
+            "exercise": "TricepExtension",
+            "progress": "x45kg",
+            "sets": 3
+          },
+          {
+            "exercise": "PushUps",
+            "progress": "~60",
+            "sets": 3
+          }
+        ],
+        "pull": [
+          {
+            "exercise": "TBar",
+            "progress": "x50kg",
+            "sets": 3
+          },
+          {
+            "exercise": "LatPull_ReversePull",
+            "progress": "x50kg",
+            "sets": 3
+          },
+          {
+            "exercise": "SeatedRow",
+            "progress": "x52kg",
+            "sets": 3
+          },
+          {
+            "exercise": "Shrugs",
+            "progress": "x25kg",
+            "sets": 3
+          },
+          {
+            "exercise": "BicepCurl_Hammers",
+            "progress": "x15kg x35kg",
+            "sets": 3
+          },
+          {
+            "exercise": "PullUps",
+            "progress": "~33",
+            "sets": 3
+          }
+        ],
+        "legs": [
+          {
+            "exercise": "BarbellSquats",
+            "progress": "x20kg",
+            "sets": 3
+          },
+          {
+            "exercise": "LegPress",
+            "progress": "x120kg",
+            "sets": 3
+          },
+          {
+            "exercise": "LegCurl",
+            "progress": "x50kg",
+            "sets": 3
+          },
+          {
+            "exercise": "Extensions",
+            "progress": "x50kg",
+            "sets": 3
+          },
+          {
+            "exercise": "Abduction_Adduction",
+            "progress": "x35kg x50kg",
+            "sets": 3
+          },
+          {
+            "exercise": "VSitUps",
+            "progress": "~60",
+            "sets": 3
+          }
+        ],
+        "createdAt": "2025-11-16T13:30:22.728Z",
+        "updatedAt": "2025-11-16T13:30:22.728Z",
+        "__v": 0
+      }
+    ],
+    "fields": {
+      "date": {
+        "type": "string",
+        "examples": [
+          "April 12th",
+          "May 21st",
+          "June 26th"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "location": {
+        "type": "null | string",
+        "examples": [
+          null,
+          "On Leaving Delhi"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "push": {
+        "type": "Array",
+        "examples": [
+          {
+            "exercise": "Inclined_Flat",
+            "progress": "x22.5kg",
+            "sets": 3
+          },
+          {
+            "exercise": "Inclined_Flat",
+            "progress": "x25kg",
+            "sets": 3
+          },
+          {
+            "exercise": "Inclined_Flat",
+            "progress": "x27.5kg",
+            "sets": 3
+          }
+        ],
+        "isArray": true,
+        "isObject": false,
+        "nestedFields": {
+          "exercise": {
+            "type": "string",
+            "examples": [
+              "Inclined_Flat"
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "progress": {
+            "type": "string",
+            "examples": [
+              "x22.5kg",
+              "x25kg",
+              "x27.5kg"
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "sets": {
+            "type": "number",
+            "examples": [
+              3
+            ],
+            "isArray": false,
+            "isObject": false
+          }
+        }
+      },
+      "pull": {
+        "type": "Array",
+        "examples": [
+          {
+            "exercise": "TBar",
+            "progress": "x35kg",
+            "sets": 3
+          },
+          {
+            "exercise": "TBar",
+            "progress": "x45kg",
+            "sets": 3
+          },
+          {
+            "exercise": "TBar",
+            "progress": "x50kg",
+            "sets": 3
+          }
+        ],
+        "isArray": true,
+        "isObject": false,
+        "nestedFields": {
+          "exercise": {
+            "type": "string",
+            "examples": [
+              "TBar"
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "progress": {
+            "type": "string",
+            "examples": [
+              "x35kg",
+              "x45kg",
+              "x50kg"
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "sets": {
+            "type": "number",
+            "examples": [
+              3
+            ],
+            "isArray": false,
+            "isObject": false
+          }
+        }
+      },
+      "legs": {
+        "type": "Array",
+        "examples": [
+          {
+            "exercise": "GoblinSquats",
+            "progress": "x30kg",
+            "sets": 3
+          },
+          {
+            "exercise": "BarbellSquats",
+            "progress": "x20kg",
+            "sets": 3
+          }
+        ],
+        "isArray": true,
+        "isObject": false,
+        "nestedFields": {
+          "exercise": {
+            "type": "string",
+            "examples": [
+              "GoblinSquats",
+              "BarbellSquats"
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "progress": {
+            "type": "string",
+            "examples": [
+              "x30kg",
+              "x20kg"
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "sets": {
+            "type": "number",
+            "examples": [
+              3
+            ],
+            "isArray": false,
+            "isObject": false
+          }
+        }
+      },
+      "createdAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:22.354Z",
+          "2025-11-16T13:30:22.707Z",
+          "2025-11-16T13:30:22.728Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "updatedAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:22.354Z",
+          "2025-11-16T13:30:22.707Z",
+          "2025-11-16T13:30:22.728Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      }
+    },
+    "domain": "Fitness"
+  },
+  {
+    "name": "cppproblemlists",
+    "count": 1,
+    "sampleDocuments": [
+      {
+        "_id": "6919d1f0df9809cb0b39b025",
+        "list_name": "TLE_LvL3",
+        "description": "Migrated from TLE_LvL3",
+        "modules": [
+          {
+            "sr_no": 1,
+            "module_name": "Binary Search",
+            "category": null,
+            "topics": [
+              {
+                "title": "Binary Search on Answer",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Binary Search on Decimals",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Problem Solving",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Problem Solving [Bonus]",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              }
+            ]
+          },
+          {
+            "sr_no": 2,
+            "module_name": "Binary Search & Interactive Problems",
+            "category": null,
+            "topics": [
+              {
+                "title": "Transforming Eqns for Binary Search",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Interactive Problems",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Problem Solving",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              }
+            ]
+          },
+          {
+            "sr_no": 3,
+            "module_name": "Sliding Windows",
+            "category": null,
+            "topics": [
+              {
+                "title": "Sliding Windows Introduction",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Sliding Window Problem Solving",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              }
+            ]
+          },
+          {
+            "sr_no": 4,
+            "module_name": "Two Pointers",
+            "category": null,
+            "topics": [
+              {
+                "title": "Two Pointers Introduction",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Problem Solving 1",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Problem Solving 2",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              }
+            ]
+          },
+          {
+            "sr_no": 5,
+            "module_name": "Advanced Number Theory",
+            "category": null,
+            "topics": [
+              {
+                "title": "Number Theory 1",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Number Theory 2",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Problem Solving",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              }
+            ]
+          },
+          {
+            "sr_no": 6,
+            "module_name": "Combinatorics & Probability",
+            "category": null,
+            "topics": [
+              {
+                "title": "Combinatorics 1",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Combinatorics 2",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Probability & Expectation",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              }
+            ]
+          },
+          {
+            "sr_no": 7,
+            "module_name": "Greedy Algorithms",
+            "category": null,
+            "topics": [
+              {
+                "title": "Greedy 1",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Greedy 2",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Problem Solving",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              }
+            ]
+          },
+          {
+            "sr_no": 8,
+            "module_name": "Greedy Problem Solving",
+            "category": null,
+            "topics": [
+              {
+                "title": "Problem Solving 1",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Problem Solving 2",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Problem Solving 3",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              }
+            ]
+          },
+          {
+            "sr_no": 9,
+            "module_name": "String Hashing",
+            "category": null,
+            "topics": [
+              {
+                "title": "String Hashing",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Problem Solving",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              }
+            ]
+          },
+          {
+            "sr_no": 10,
+            "module_name": "Tries",
+            "category": null,
+            "topics": [
+              {
+                "title": "String Tries",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Binary Tries",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              }
+            ]
+          },
+          {
+            "sr_no": 11,
+            "module_name": "Guidance Sessions Archive",
+            "category": null,
+            "topics": [
+              {
+                "title": "How to Perform Well in Contests",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "CP Template and Snippets",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Mathematical Thinking / Proof for CP",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Resources & Extensions for CP",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "How to Improve Implementation",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "General Game Theory Techniques",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Importance of Upsolving",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "How To Prepare for a Contest",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Recent OAs Ideas Discussion",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Everything About Meta HackerCup",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "ICPC Session",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-11-16T13:30:24.292Z",
+        "updatedAt": "2025-11-16T13:34:06.047Z",
+        "__v": 0
+      }
+    ],
+    "fields": {
+      "list_name": {
+        "type": "string",
+        "examples": [
+          "TLE_LvL3"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "description": {
+        "type": "string",
+        "examples": [
+          "Migrated from TLE_LvL3"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "modules": {
+        "type": "Array",
+        "examples": [
+          {
+            "sr_no": 1,
+            "module_name": "Binary Search",
+            "category": null,
+            "topics": [
+              {
+                "title": "Binary Search on Answer",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Binary Search on Decimals",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Problem Solving",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              },
+              {
+                "title": "Problem Solving [Bonus]",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              }
+            ]
+          }
+        ],
+        "isArray": true,
+        "isObject": false,
+        "nestedFields": {
+          "sr_no": {
+            "type": "number",
+            "examples": [
+              1
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "module_name": {
+            "type": "string",
+            "examples": [
+              "Binary Search"
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "category": {
+            "type": "null",
+            "examples": [
+              null
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "topics": {
+            "type": "Array",
+            "examples": [
+              {
+                "title": "Binary Search on Answer",
+                "status": "Not Started",
+                "notes": "",
+                "question_image_url": null,
+                "problem_link": null,
+                "difficulty": null
+              }
+            ],
+            "isArray": true,
+            "isObject": false,
+            "nestedFields": {
+              "title": {
+                "type": "string",
+                "examples": [
+                  "Binary Search on Answer"
+                ],
+                "isArray": false,
+                "isObject": false
+              },
+              "status": {
+                "type": "string",
+                "examples": [
+                  "Not Started"
+                ],
+                "isArray": false,
+                "isObject": false
+              },
+              "notes": {
+                "type": "string",
+                "examples": [
+                  ""
+                ],
+                "isArray": false,
+                "isObject": false
+              },
+              "question_image_url": {
+                "type": "null",
+                "examples": [
+                  null
+                ],
+                "isArray": false,
+                "isObject": false
+              },
+              "problem_link": {
+                "type": "null",
+                "examples": [
+                  null
+                ],
+                "isArray": false,
+                "isObject": false
+              },
+              "difficulty": {
+                "type": "null",
+                "examples": [
+                  null
+                ],
+                "isArray": false,
+                "isObject": false
+              }
+            }
+          }
+        }
+      },
+      "createdAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:24.292Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "updatedAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:34:06.047Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      }
+    },
+    "domain": "Learning"
+  },
+  {
+    "name": "udemycourses",
+    "count": 2,
+    "sampleDocuments": [
+      {
+        "_id": "6919d1f0df9809cb0b39b027",
+        "platform": "Udemy",
+        "access_type": "Unlimited Access",
+        "coverage": "All Courses",
+        "status": "present",
+        "createdAt": "2025-11-16T13:30:24.313Z",
+        "updatedAt": "2025-11-16T13:30:24.313Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d2ce1d302a071272fdbd",
+        "platform": "Udemy",
+        "access_type": "Unlimited Access",
+        "coverage": "All Courses",
+        "status": "present",
+        "createdAt": "2025-11-16T13:34:06.303Z",
+        "updatedAt": "2025-11-16T13:34:06.303Z",
+        "__v": 0
+      }
+    ],
+    "fields": {
+      "platform": {
+        "type": "string",
+        "examples": [
+          "Udemy"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "access_type": {
+        "type": "string",
+        "examples": [
+          "Unlimited Access"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "coverage": {
+        "type": "string",
+        "examples": [
+          "All Courses"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "status": {
+        "type": "string",
+        "examples": [
+          "present"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "createdAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:24.313Z",
+          "2025-11-16T13:34:06.303Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "updatedAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:24.313Z",
+          "2025-11-16T13:34:06.303Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      }
+    },
+    "domain": "General"
+  },
+  {
+    "name": "mobilities",
+    "count": 3,
+    "sampleDocuments": [
+      {
+        "_id": "6919d1f0df9809cb0b39b03f",
+        "sr_no": 1,
+        "category": "Scooty",
+        "device_name": "Rented Scooty",
+        "purpose": "Exploring Hyderabad freely",
+        "description": "Ignites passion for roaming and wandering around the city; extremely useful for daily life.",
+        "usage": [
+          "Visiting supermarkets",
+          "Going to parks to play guitar early morning",
+          "Reaching large libraries (including IIIT-H) for studying"
+        ],
+        "createdAt": "2025-11-16T13:30:24.544Z",
+        "updatedAt": "2025-11-16T13:30:24.544Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1f0df9809cb0b39b041",
+        "sr_no": 2,
+        "category": "GoKartRacing",
+        "usage": [],
+        "details": {
+          "availability": "Can go anytime",
+          "notes": "Go-kart racing is fills me up with Thrill and I feel Very Excited and can be used for fun, adrenaline Rush and weekend enjoyment."
+        },
+        "createdAt": "2025-11-16T13:30:24.563Z",
+        "updatedAt": "2025-11-16T13:30:24.563Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d2ce1d302a071272fdd5",
+        "sr_no": 1,
+        "category": "Scooty",
+        "device_name": "Rented Scooty",
+        "purpose": "Exploring Hyderabad freely",
+        "description": "Ignites passion for roaming and wandering around the city; extremely useful for daily life.",
+        "usage": [
+          "Visiting supermarkets",
+          "Going to parks to play guitar early morning",
+          "Reaching large libraries (including IIIT-H) for studying"
+        ],
+        "createdAt": "2025-11-16T13:34:06.545Z",
+        "updatedAt": "2025-11-16T13:34:06.545Z",
+        "__v": 0
+      }
+    ],
+    "fields": {
+      "sr_no": {
+        "type": "number",
+        "examples": [
+          1,
+          2
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "category": {
+        "type": "string",
+        "examples": [
+          "Scooty",
+          "GoKartRacing"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "device_name": {
+        "type": "string",
+        "examples": [
+          "Rented Scooty"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "purpose": {
+        "type": "string",
+        "examples": [
+          "Exploring Hyderabad freely"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "description": {
+        "type": "string",
+        "examples": [
+          "Ignites passion for roaming and wandering around the city; extremely useful for daily life."
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "usage": {
+        "type": "Array",
+        "examples": [
+          "Visiting supermarkets",
+          []
+        ],
+        "isArray": true,
+        "isObject": false
+      },
+      "createdAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:24.544Z",
+          "2025-11-16T13:30:24.563Z",
+          "2025-11-16T13:34:06.545Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "updatedAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:24.544Z",
+          "2025-11-16T13:30:24.563Z",
+          "2025-11-16T13:34:06.545Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "details": {
+        "type": "object",
+        "examples": [
+          {
+            "availability": "Can go anytime",
+            "notes": "Go-kart racing is fills me up with Thrill and I feel Very Excited and can be used for fun, adrenaline Rush and weekend enjoyment."
+          }
+        ],
+        "isArray": false,
+        "isObject": true,
+        "nestedFields": {
+          "availability": {
+            "type": "string",
+            "examples": [
+              "Can go anytime"
+            ],
+            "isArray": false,
+            "isObject": false
+          },
+          "notes": {
+            "type": "string",
+            "examples": [
+              "Go-kart racing is fills me up with Thrill and I feel Very Excited and can be used for fun, adrenaline Rush and weekend enjoyment."
+            ],
+            "isArray": false,
+            "isObject": false
+          }
+        }
+      }
+    },
+    "domain": "Inventory"
+  },
+  {
+    "name": "cppproblems",
+    "count": 3,
+    "sampleDocuments": [
+      {
+        "_id": "6919d1fe55aed95b9155dced",
+        "id": "cpp-001",
+        "title": "Two Sum",
+        "category": "Array",
+        "difficulty": "Easy",
+        "notes": "Use hash map to store complement values. Time complexity: O(n), Space: O(n)",
+        "code": "class Solution {\npublic:\n    vector<int> twoSum(vector<int>& nums, int target) {\n        unordered_map<int, int> map;\n        for (int i = 0; i < nums.size(); i++) {\n            int complement = target - nums[i];\n            if (map.find(complement) != map.end()) {\n                return {map[complement], i};\n            }\n            map[nums[i]] = i;\n        }\n        return {};\n    }\n};",
+        "imageUrl": "https://example.com/two-sum.png",
+        "createdAt": "2025-11-16T13:30:38.695Z",
+        "updatedAt": "2025-11-16T13:30:38.695Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1fe55aed95b9155dcf0",
+        "id": "cpp-002",
+        "title": "Reverse Linked List",
+        "category": "Linked List",
+        "difficulty": "Easy",
+        "notes": "Iterative approach: maintain prev, curr, next pointers. Recursive approach also possible.",
+        "code": "class Solution {\npublic:\n    ListNode* reverseList(ListNode* head) {\n        ListNode* prev = nullptr;\n        ListNode* curr = head;\n        \n        while (curr != nullptr) {\n            ListNode* next = curr->next;\n            curr->next = prev;\n            prev = curr;\n            curr = next;\n        }\n        \n        return prev;\n    }\n};",
+        "createdAt": "2025-11-16T13:30:38.722Z",
+        "updatedAt": "2025-11-16T13:30:38.722Z",
+        "__v": 0
+      },
+      {
+        "_id": "6919d1fe55aed95b9155dcf2",
+        "id": "cpp-003",
+        "title": "Merge Two Sorted Lists",
+        "category": "Linked List",
+        "difficulty": "Easy",
+        "notes": "Use dummy node to simplify edge cases. Compare and merge nodes.",
+        "code": "class Solution {\npublic:\n    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {\n        ListNode dummy(0);\n        ListNode* tail = &dummy;\n        \n        while (list1 && list2) {\n            if (list1->val < list2->val) {\n                tail->next = list1;\n                list1 = list1->next;\n            } else {\n                tail->next = list2;\n                list2 = list2->next;\n            }\n            tail = tail->next;\n        }\n        \n        tail->next = list1 ? list1 : list2;\n        return dummy.next;\n    }\n};",
+        "createdAt": "2025-11-16T13:30:38.751Z",
+        "updatedAt": "2025-11-16T13:30:38.751Z",
+        "__v": 0
+      }
+    ],
+    "fields": {
+      "id": {
+        "type": "string",
+        "examples": [
+          "cpp-001",
+          "cpp-002",
+          "cpp-003"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "title": {
+        "type": "string",
+        "examples": [
+          "Two Sum",
+          "Reverse Linked List",
+          "Merge Two Sorted Lists"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "category": {
+        "type": "string",
+        "examples": [
+          "Array",
+          "Linked List"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "difficulty": {
+        "type": "string",
+        "examples": [
+          "Easy"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "notes": {
+        "type": "string",
+        "examples": [
+          "Use hash map to store complement values. Time complexity: O(n), Space: O(n)",
+          "Iterative approach: maintain prev, curr, next pointers. Recursive approach also possible.",
+          "Use dummy node to simplify edge cases. Compare and merge nodes."
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "code": {
+        "type": "string",
+        "examples": [
+          "class Solution {\npublic:\n    vector<int> twoSum(vector<int>& nums, int target) {\n        unordered_map<int, int> map;\n        for (int i = 0; i < nums.size(); i++) {\n            int complement = target - nums[i];\n            if (map.find(complement) != map.end()) {\n                return {map[complement], i};\n            }\n            map[nums[i]] = i;\n        }\n        return {};\n    }\n};",
+          "class Solution {\npublic:\n    ListNode* reverseList(ListNode* head) {\n        ListNode* prev = nullptr;\n        ListNode* curr = head;\n        \n        while (curr != nullptr) {\n            ListNode* next = curr->next;\n            curr->next = prev;\n            prev = curr;\n            curr = next;\n        }\n        \n        return prev;\n    }\n};",
+          "class Solution {\npublic:\n    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {\n        ListNode dummy(0);\n        ListNode* tail = &dummy;\n        \n        while (list1 && list2) {\n            if (list1->val < list2->val) {\n                tail->next = list1;\n                list1 = list1->next;\n            } else {\n                tail->next = list2;\n                list2 = list2->next;\n            }\n            tail = tail->next;\n        }\n        \n        tail->next = list1 ? list1 : list2;\n        return dummy.next;\n    }\n};"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "imageUrl": {
+        "type": "string",
+        "examples": [
+          "https://example.com/two-sum.png"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "createdAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:38.695Z",
+          "2025-11-16T13:30:38.722Z",
+          "2025-11-16T13:30:38.751Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      },
+      "updatedAt": {
+        "type": "Date",
+        "examples": [
+          "2025-11-16T13:30:38.695Z",
+          "2025-11-16T13:30:38.722Z",
+          "2025-11-16T13:30:38.751Z"
+        ],
+        "isArray": false,
+        "isObject": false
+      }
+    },
+    "domain": "Learning"
+  }
+]

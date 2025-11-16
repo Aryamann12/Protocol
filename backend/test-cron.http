@@ -1,0 +1,30 @@
+### Test All CRON Jobs at Once
+GET http://localhost:3001/api/scheduler/test-all
+
+###
+
+### Test Life Optimizer
+POST http://localhost:3001/api/scheduler/trigger/life-optimizer
+
+###
+
+### Test Fridge Manager
+POST http://localhost:3001/api/scheduler/trigger/fridge-manager
+
+###
+
+### Test Progress Review
+POST http://localhost:3001/api/scheduler/trigger/progress-review
+
+###
+
+### Test Problem Detector
+POST http://localhost:3001/api/scheduler/trigger/problem-detector
+
+###
+
+### Health Check
+GET http://localhost:3001/api/health
+
+###
+
